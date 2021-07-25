@@ -6,6 +6,7 @@ A script that runs through an OAuth 2.0 flow to obtain a refreshable token.
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 
+
 CLIENT_SECRETS_FILE = "client_secret.json"
 SCOPES = ["https://www.googleapis.com/auth/calendar.events.readonly"]
 TOKEN_FILE = "token.json"
